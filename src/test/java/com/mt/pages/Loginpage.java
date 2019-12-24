@@ -28,6 +28,8 @@ public class Loginpage {
 	public void enterUsernm(String usernm)
 	{
 		objusernm.sendKeys(usernm);
+		System.out.println("hello");
+		
 	}
 	public void enterPasswd(String passwd)
 	{
